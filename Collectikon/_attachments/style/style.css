@@ -1,0 +1,72 @@
+/* 
+    Document   : style
+    Created on : 5 déc. 2012, 13:08:17
+    Author     : itachiuchiwa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+a:link
+{
+    text-decoration: none;
+    color: black;
+}
+a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+a:active
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+root { 
+    display: block;
+}
+
+#upload-file-container {
+   
+}
+
+#upload-file-container input {
+  
+}
+
+table {
+    border: 1px;
+}
+
+.encadre {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+#divEditionAffichageCommentaires
+{
+    position: relative;
+    top: 0px;
+    left: 60%;
+    width: 35%;
+    right: 5%;
+    height: 525px;
+}
+
+#divCommentaires
+{
+    overflow: auto;
+    height: 78%;
+    width: 100%
+}
